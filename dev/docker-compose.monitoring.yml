@@ -29,7 +29,7 @@ services:
     restart: unless-stopped
 
   grafana:
-    image: grafana/grafana-oss:9.5.5
+    image: grafana/grafana-oss:9.5.21
     depends_on:
     - prometheus
     environment:
